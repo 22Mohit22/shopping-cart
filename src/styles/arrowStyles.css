@@ -1,0 +1,40 @@
+.arrow{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(.8);
+}
+
+.arrow-tail{
+    width: 100px;
+    height: 10px;
+    background-color: #000000;
+    transform-origin: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+}
+.arrow-top, .arrow-bottom{
+    width: 50px;
+    height: 10px;
+    background-color: black;
+    transform-origin: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.arrow-top{
+    transform: rotateZ(45deg);
+    top: 2.5px;
+}
+.arrow-bottom{
+    transform: rotateZ(-45deg);
+    top: -2.5px;
+}
