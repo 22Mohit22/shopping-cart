@@ -1,0 +1,14 @@
+.shop-area{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-con{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
