@@ -5,6 +5,29 @@
     align-items: flex-start;
 }
 
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.category-btn{
+    font-size: 25px;
+    background: none;
+    border: none;
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.category-btn:hover{
+    box-shadow: 0 0 5px ;
+    color: rgb(255, 111, 0);
+}
+
 .product-con{
     display: flex;
     justify-content: flex-start;
