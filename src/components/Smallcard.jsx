@@ -74,7 +74,7 @@ export default function Smallcard({ id, quantity, setCart }) {
                 <p className="flex justify-start items-center mx-4 gap-1 font-semibold text-md text-black">{fixName(product.title)}</p>
                 <p className="gap-1 mx-4">$ {product.price}</p>
                 <span className=" mx-4 font-semibold text-md">
-                    Total price for {count} items: $ {count * product.price}
+                    Total price for {count} items: $ {parseFloat(count * product.price).toFixed(2)}
                 </span>
             </div>
             <div className="flex flex-wrap scale-75 gap-8">

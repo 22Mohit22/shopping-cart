@@ -64,7 +64,7 @@ export default function GlobalState ({ children }) {
     }
     const calculateTotalPrice = () => {
         const total = cart ? cart.map(item => item.price * item.count) : 0;
-        const price = Math.round(total ? total.reduce((a, b) => a + b, 0) : 0);
+        const price = parseFloat(total ? total.reduce((a, b) => a + b, 0) : 0).toFixed(2);
         setTotalPrice(price);
     }
 
