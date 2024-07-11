@@ -1,7 +1,12 @@
+import Content from "./components/Content";
+import Navbar from "./components/Navbar";
+
 export default function App() {
+
     return (
-        <h1 className="text-3xl font-bold text-black-600">
-            Khareedo.com
-        </h1>
+        <div className='min-h-full bg-white'>
+            <Navbar />
+            <Content />
+        </div>
     )
 }
